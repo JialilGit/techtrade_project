@@ -86,7 +86,7 @@
             <div class="div_design">
 
               <label>Product Description :</label>
-              <input class="text_color" type="text" name="description" placeholder="Write a description"  required="">
+              <input class="text_color" type="text" name="description" placeholder="Write a description" rows="10" required="">
               
             </div>
 

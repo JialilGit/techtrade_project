@@ -20,9 +20,10 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('address')->nullable();
             $table->string('product_title')->nullable();
-            $table->string('price')->nullable();
+            $table->string('price')->nullable(); 
             $table->string('quantity')->nullable();
             $table->string('image')->nullable();
+            $table->decimal('actual_price', 10, 2)->nullable();
             $table->string('Product_id')->nullable();
             $table->string('user_id')->nullable();
             $table->timestamps();

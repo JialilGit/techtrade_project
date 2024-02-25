@@ -33,6 +33,7 @@
  			font-size: 15px;
  			padding: 5px;
  			background: green;
+         color: white;
  		}
 
  		.img_deg
@@ -75,10 +76,11 @@
 
       		<tr>
 
+               <th class="th_deg">Image</th>
                <th class="th_deg">Product Title</th>
+               <th class="th_deg">Price</th>
                <th class="th_deg">Product Quantity</th>
                <th class="th_deg">Total Price</th>
-               <th class="th_deg">Image</th>
                <th class="th_deg">Action</th>
       			
       		</tr>
@@ -90,14 +92,20 @@
       		@foreach($cart as $cart)
 
       		<tr>
-
+               <td><img class="img_deg" src="/product/{{$cart->image}}"></td>
       			<td>{{$cart->product_title}}</td>
+               <td>₱{{number_format($cart->actual_price, 2)}}</td>
       			<td>{{$cart->quantity}}</td>
       			<td>₱{{number_format($cart->price, 2)}}</td>
-      			<td><img class="img_deg" src="/product/{{$cart->image}}"></td>
+      			
       			<td> 
 
-      				<a class="btn btn-danger" onclick="confirmation(event)" href="{{url('/remove_cart',$cart->id)}}">Remove Product</a>
+      				<a class="btn btn-danger" onclick="confirmation(event)" href="{{url('/remove_cart',$cart->id)}}">
+                  
+                     <img src="{{ asset('/images/trash_icon.png') }}" alt="Remove Product" style="width: 16px; height: 16px;">
+
+                  </a>
+                  
 
 
       			</td>
@@ -120,7 +128,7 @@
 
       	<div>
 
-      		<h1 class="total_deg">Total Price :  ₱{{$totalprice}}</h1>
+      		<h1 class="total_deg">Total Price : ₱{{number_format($totalprice, 2)}}</h1>
       		
 
       	</div>
@@ -158,9 +166,7 @@
 
       <div style="padding-top: 215px;">
          <div class="cpy_" >
-         <p class="mx-auto">© 2022 All Rights Reserved By <a target="_blank" href="https://www.youtube.com/channel/UCeNYDojo4nU2sbHz1sMsBXw/">Web Tech Knowledge</a><br>
-         
-            Distributed By <a target="_blank" href="https://www.youtube.com/channel/UCeNYDojo4nU2sbHz1sMsBXw" target="_blank">>Web Tech Knowledge</a>
+         <p class="mx-auto">© 2024 All Rights Reserved By TechTradePH</a>
          
          </p>
       </div>

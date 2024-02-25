@@ -35,7 +35,16 @@
             background-color: green;
             font-size: 20px;
             font-weight: bold;
+            color: white;
 
+         }
+
+         .processing-status {
+            color: orange;
+         }
+
+         .delivered-status {
+            color: green;
          }
       </style>
 
@@ -57,6 +66,8 @@
                <tr>
                   <th class="th_deg">Order ID</th>
 
+                  <th class="th_deg">Image</th>
+
                   <th class="th_deg">Product Title</th>
 
                   <th class="th_deg">Quantity</th>
@@ -67,8 +78,6 @@
 
                   <th class="th_deg">Delivery Status</th>
 
-                  <th class="th_deg">Image</th>
-
                   <th class="th_deg">Cancel Order</th>
 
                </tr>
@@ -78,6 +87,12 @@
                <tr>
                   <td>{{ str_pad($order->id, 8, '0', STR_PAD_LEFT) }}</td>
 
+                  <td>
+                     
+                     <img height="200" width="180" src="product/{{$order->image}}">
+
+                  </td>
+
                   <td>{{$order->product_title}}</td>
 
                   <td>{{$order->quantity}}</td>
@@ -86,25 +101,23 @@
 
                   <td>{{$order->payment_status}}</td>
 
-                  <td>{{$order->delivery_status}}</td>
-
-                  <td>
-                     
-                     <img height="100" width="180" src="product/{{$order->image}}">
-
+                  <td style="color: {{ $order->delivery_status === 'Processing' ? 'orange' : ($order->delivery_status === 'Delivered' ? 'green' : 'red') }}">
+                        {{ $order->delivery_status }}
                   </td>
 
  
                   <td>
 
-                     @if($order->delivery_status=='processing')
+                     @if($order->delivery_status=='Processing')
 
                      <a onclick="confirmation(event)" class="btn btn-danger" href="{{url('cancel_order',$order->id)}}">Cancel Order</a>
 
 
                      @else
 
-                     <p style="color: blue;">Not Allowed</p>
+                     
+                     <a onclick="confirmation(event)" class="btn btn-danger{{ $order->delivery_status === 'Order Cancelled' ? ' disabled' : '' }}" href="{{url('cancel_order',$order->id)}}">Cancel Order</a>
+
 
                      @endif
 
@@ -122,9 +135,7 @@
 
 
                <div class="cpy_" style="position: fixed; bottom:0px; width: 100%">
-         <p class="mx-auto">© 2022 All Rights Reserved By <a href="https://www.youtube.com/channel/UCeNYDojo4nU2sbHz1sMsBXw/">Web Tech Knowledge</a><br>
-         
-            Distributed By <a href="https://www.youtube.com/channel/UCeNYDojo4nU2sbHz1sMsBXw" target="_blank">>Web Tech Knowledge</a>
+         <p class="mx-auto">© 2024 All Rights Reserved By TechTradePH</a>
          
          </p>
       </div>

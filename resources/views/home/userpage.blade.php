@@ -45,9 +45,7 @@
 <br><br>
 
 
-      <!-- subscribe section -->
-      @include('home.subscribe')
-      <!-- end subscribe section -->
+      
  
       <!-- client section -->
       @include('home.client')

@@ -38,7 +38,16 @@
                         <fieldset>
                            <input type="text" placeholder="Enter your full name" name="name" required />
                            <input type="email" placeholder="Enter your email address" name="email" required />
-                           <input type="text" placeholder="Enter subject" name="subject" required />
+                           <label for="category">Subject:</label>
+                           <select name="subject" id="category" required>
+                              <option value="">Select a subject</option>
+                              <option value="General Concerns / Inquiry">General Concerns / Inquiry</option>
+                              <option value="Returns & Refunds">Returns & Refunds</option>
+                              <option value="Product Availability">Product Availability</option>
+                              <option value="Support">Support</option>
+                              <option value="Feedback">Feedback</option>
+                           </select>
+                           
                            <textarea placeholder="Enter your message" name="message" required></textarea>
                            <input type="submit" value="Submit" />
                         </fieldset>

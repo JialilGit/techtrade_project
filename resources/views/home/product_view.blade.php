@@ -74,15 +74,15 @@
                         </h5>
 
                         @if($products->discount_price!=null)
-
+                  
                         <h6 style="color: green">
-                           Discounted price
+                           
                            <br>
                            ₱{{number_format($products->discount_price, 2)}}
                         </h6>
 
                         <h6 style="text-decoration: line-through; color:red">
-                           Price
+                           
                            <br>
                            ₱{{number_format($products->price, 2)}}
                         </h6>
@@ -90,7 +90,7 @@
                         @else
 
                         <h6 style="color: green">
-                           Price
+                          
                            <br>
                            ₱{{number_format($products->price, 2)}}
                         </h6>

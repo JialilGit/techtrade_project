@@ -212,7 +212,7 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Free Shiping
+                           Free Shipping
                         </h5>
                         <p>
                         Enjoy the added delight of free shipping on every order, making your shopping spree not only convenient but also cost-effective.

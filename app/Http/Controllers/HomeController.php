@@ -241,6 +241,8 @@ class HomeController extends Controller
 
                 $cart->quantity=$quantity + $request->quantity;
 
+                $cart->actual_price = $product->discount_price;
+
 
                  if($product->discount_price!=null)
 
@@ -282,6 +284,8 @@ class HomeController extends Controller
 
 
                         $cart->product_title=$product->title;
+
+                        $cart->actual_price = $product->discount_price;
 
 
 
@@ -455,9 +459,9 @@ class HomeController extends Controller
             $order->product_id=$data->Product_id;
 
 
-            $order->payment_status='cash on delivery';
+            $order->payment_status='Cash On Delivery';
 
-            $order->delivery_status='processing';
+            $order->delivery_status='Processing';
 
 
             $order->save();
@@ -568,7 +572,7 @@ class HomeController extends Controller
 
             $order->payment_status='Paid';
 
-            $order->delivery_status='processing';
+            $order->delivery_status='Processing';
 
 
             $order->save();
@@ -626,7 +630,7 @@ class HomeController extends Controller
 
         $order=order::find($id);
 
-        $order->delivery_status='You canceled the order';
+        $order->delivery_status='Order Cancelled';
 
         $product = Product::find($order->product_id);
 
