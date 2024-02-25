@@ -14,7 +14,7 @@
       <link rel="shortcut icon" href="images/favicon.jpg" type="">
       <title>TechTrade - Sustainable TechMarket</title>
       <!-- bootstrap core css -->
-      <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css" />
+      <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
       <!-- font awesome style -->
       <link href="home/css/font-awesome.min.css" rel="stylesheet" />
       <!-- Custom styles for this template -->

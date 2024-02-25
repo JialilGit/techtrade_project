@@ -4,7 +4,7 @@
                <div class="col-md-4">
                    <div class="full">
                       <div class="logo_footer">
-                        <a href="{{url('/')}}"><img width="210"  src="{{asset('images/techtrade.jpeg')}}" alt="#" /></a>
+                        <a href="{{url('/')}}"><img width="210"  src="images/techtrade.jpeg" alt="#" /></a>
                       </div>
                       <div class="information_f">
                         <p><strong>ADDRESS:</strong> 24F BGC Corporate Center, 30th Street corner 11th Avenue, Bonifacio Global City, Taguig City, Metro Manila, Philippines</p>

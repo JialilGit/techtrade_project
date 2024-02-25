@@ -1,7 +1,7 @@
 <header class="header_section">
             <div class="container">
                <nav class="navbar navbar-expand-lg custom_nav-container ">
-                  <a class="navbar-brand" href="{{url('/')}}"><img width="210" src="{{asset('images/techtrade.jpeg')}}" alt="#" /></a>
+                  <a class="navbar-brand" href="{{url('/')}}"><img width="210" src="images/techtrade.jpeg" alt="#" /></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class=""> </span>
                   </button>
