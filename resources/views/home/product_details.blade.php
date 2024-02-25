@@ -11,16 +11,16 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="{{asset('images/favicon.jpg')}}" type="">
+      <link rel="shortcut icon" href="images/favicon.jpg" type="">
       <title>TechTrade - Sustainable TechMarket</title>
       <!-- bootstrap core css -->
-      <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
+      <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css" />
       <!-- font awesome style -->
-      <link href="{{asset('home/css/font-awesome.min.css')}}" rel="stylesheet" />
+      <link href="home/css/font-awesome.min.css" rel="stylesheet" />
       <!-- Custom styles for this template -->
-      <link href="{{asset('home/css/style.css')}}" rel="stylesheet" />
+      <link href="home/css/style.css" rel="stylesheet" />
       <!-- responsive style -->
-      <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />
+      <link href="home/css/responsive.css" rel="stylesheet" />
    </head>
    <body>
       <div class="hero_area">
