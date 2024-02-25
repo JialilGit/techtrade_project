@@ -19,7 +19,7 @@
         <form method="POST" action="{{ route('password.email') }}">
             @csrf
 
-            <input type='hidden' name='_token' value='{{csrf_token()}}'>
+
 
             <div class="block">
                 <x-jet-label for="email" value="{{ __('Email') }}" />

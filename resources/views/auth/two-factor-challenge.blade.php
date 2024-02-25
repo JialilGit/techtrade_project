@@ -18,7 +18,7 @@
             <form method="POST" action="{{ route('two-factor.login') }}">
                 @csrf
 
-                <input type='hidden' name='_token' value='{{csrf_token()}}'>
+                
 
                 <div class="mt-4" x-show="! recovery">
                     <x-jet-label for="code" value="{{ __('Code') }}" />

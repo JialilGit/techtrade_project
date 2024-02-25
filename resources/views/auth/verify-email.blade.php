@@ -18,8 +18,7 @@
             <form method="POST" action="{{ route('verification.send') }}">
                 @csrf
 
-                <input type='hidden' name='_token' value='{{csrf_token()}}'>
-
+                
                 <div>
                     <x-jet-button type="submit">
                         {{ __('Resend Verification Email') }}
