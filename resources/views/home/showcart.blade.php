@@ -32,7 +32,7 @@
  		{
  			font-size: 15px;
  			padding: 5px;
- 			background: green;
+ 			background: rgba(69,119,12,255);
          color: white;
  		}
 
@@ -160,16 +160,7 @@
       </div>
     
 
-      <!-- footer start -->
-     
-      <!-- footer end -->
-
-      <div style="padding-top: 215px;">
-         <div class="cpy_" >
-         <p class="mx-auto">© 2024 All Rights Reserved By TechTradePH</a>
-         
-         </p>
-      </div>
+      
 
    </div>
 

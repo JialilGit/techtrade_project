@@ -32,7 +32,7 @@
          {
 
             padding: 10px;
-            background-color: green;
+            background-color: rgba(69,119,12,255);
             font-size: 20px;
             font-weight: bold;
             color: white;
@@ -134,11 +134,7 @@
       
 
 
-               <div class="cpy_" style="position: fixed; bottom:0px; width: 100%">
-         <p class="mx-auto">© 2024 All Rights Reserved By TechTradePH</a>
-         
-         </p>
-      </div>
+            
    
 
 
