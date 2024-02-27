@@ -10,7 +10,7 @@
             <div class="mb-4 font-medium text-sm text-green-600">
                 {{ session('status') }}
             </div>
-        @endifz
+        @endif
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
