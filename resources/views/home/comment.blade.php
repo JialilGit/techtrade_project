@@ -34,7 +34,7 @@
         }
 
         .community-box .btn-primary {
-            background-color: #007bff;
+            background-color: #1bb1d1;
             color: #fff;
             border: none;
             padding: 10px 20px;

@@ -72,60 +72,6 @@
                 </div>
               </div>
 
-
-              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="row">
-                              <div class="col-9">
-                                  <div class="d-flex align-items-center align-self-start">
-                                      <h3 class="mb-0">{{$total_revenue}}</h3>
-                                  </div>
-                              </div>
-                              <div class="col-3">
-                                  <div class="icon icon-box-success ">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-exchange" viewBox="0 0 16 16">
-  <path d="M0 5a5.002 5.002 0 0 0 4.027 4.905 6.46 6.46 0 0 1 .544-2.073C3.695 7.536 3.132 6.864 3 5.91h-.5v-.426h.466V5.05c0-.046 0-.093.004-.135H2.5v-.427h.511C3.236 3.24 4.213 2.5 5.681 2.5c.316 0 .59.031.819.085v.733a3.46 3.46 0 0 0-.815-.082c-.919 0-1.538.466-1.734 1.252h1.917v.427h-1.98c-.003.046-.003.097-.003.147v.422h1.983v.427H3.93c.118.602.468 1.03 1.005 1.229a6.5 6.5 0 0 1 4.97-3.113A5.002 5.002 0 0 0 0 5zm16 5.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0zm-7.75 1.322c.069.835.746 1.485 1.964 1.562V14h.54v-.62c1.259-.086 1.996-.74 1.996-1.69 0-.865-.563-1.31-1.57-1.54l-.426-.1V8.374c.54.06.884.347.966.745h.948c-.07-.804-.779-1.433-1.914-1.502V7h-.54v.629c-1.076.103-1.808.732-1.808 1.622 0 .787.544 1.288 1.45 1.493l.358.085v1.78c-.554-.08-.92-.376-1.003-.787H8.25zm1.96-1.895c-.532-.12-.82-.364-.82-.732 0-.41.311-.719.824-.809v1.54h-.005zm.622 1.044c.645.145.943.38.943.796 0 .474-.37.8-1.02.86v-1.674l.077.018z"/>
-</svg>
-                                          <path d="M14 1h1v2h-1V1zM1 2h1v2H1V2zM1 7h1v2H1V7zM1 12h1v2H1v-2zM2 0h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM1 14h1v2H1v-2zM4 4H3V2h1v2zm10 0H5V2h9v2z"/>
-                                      </svg>
-                                  </div>
-                              </div>
-                          </div>
-                          <h6 class="text-muted font-weight-normal">Monthly Revenue</h6>
-                      </div>
-                  </div>
-              </div>
-
-              
-              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="row">
-                              <div class="col-9">
-                                  <div class="d-flex align-items-center align-self-start">
-                                      <h3 class="mb-0">{{$total_revenue}}</h3>
-                                  </div>
-                              </div>
-                              <div class="col-3">
-                                  <div class="icon icon-box-success ">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-exchange" viewBox="0 0 16 16">
-  <path d="M0 5a5.002 5.002 0 0 0 4.027 4.905 6.46 6.46 0 0 1 .544-2.073C3.695 7.536 3.132 6.864 3 5.91h-.5v-.426h.466V5.05c0-.046 0-.093.004-.135H2.5v-.427h.511C3.236 3.24 4.213 2.5 5.681 2.5c.316 0 .59.031.819.085v.733a3.46 3.46 0 0 0-.815-.082c-.919 0-1.538.466-1.734 1.252h1.917v.427h-1.98c-.003.046-.003.097-.003.147v.422h1.983v.427H3.93c.118.602.468 1.03 1.005 1.229a6.5 6.5 0 0 1 4.97-3.113A5.002 5.002 0 0 0 0 5zm16 5.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0zm-7.75 1.322c.069.835.746 1.485 1.964 1.562V14h.54v-.62c1.259-.086 1.996-.74 1.996-1.69 0-.865-.563-1.31-1.57-1.54l-.426-.1V8.374c.54.06.884.347.966.745h.948c-.07-.804-.779-1.433-1.914-1.502V7h-.54v.629c-1.076.103-1.808.732-1.808 1.622 0 .787.544 1.288 1.45 1.493l.358.085v1.78c-.554-.08-.92-.376-1.003-.787H8.25zm1.96-1.895c-.532-.12-.82-.364-.82-.732 0-.41.311-.719.824-.809v1.54h-.005zm.622 1.044c.645.145.943.38.943.796 0 .474-.37.8-1.02.86v-1.674l.077.018z"/>
-</svg>
-                                          <path d="M6.5 1h-1v3a.5.5 0 0 1-1 0V1h-1a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1zm6 0h-1v3a.5.5 0 1 1-1 0V1h-1a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1zM2 3a.5.5 0 0 1 1 0v11a.5.5 0 0 1-1 0V3z"/>
-                                          <path d="M14 3a.5.5 0 0 1 1 0v11a.5.5 0 0 1-1 0V3z"/>
-                                          <path d="M12.354 0h-1.5a.5.5 0 0 1 0-1h1.5a.5.5 0 0 1 0 1z"/>
-                                      </svg>
-                                  </div>
-                              </div>
-                          </div>
-                          <h6 class="text-muted font-weight-normal">Daily Revenue</h6>
-                      </div>
-                  </div>
-              </div>
-
-
-
               <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">

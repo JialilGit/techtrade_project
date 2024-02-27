@@ -1,7 +1,7 @@
 <header class="header_section">
             <div class="container">
                <nav class="navbar navbar-expand-lg custom_nav-container ">
-                  <a class="navbar-brand" href="{{url('/')}}"><img width="210" src="images/techtrade.jpeg" alt="#" /></a>
+                  <a class="navbar-brand" href="{{url('/')}}"><img width="210" src="{{asset('images/techtrade.jpeg')}}" alt="#" /></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class=""> </span>
                   </button>
@@ -46,14 +46,14 @@
 
                         <li class="nav-item" style="padding-left: 10px!important;
                         padding-right: 10px!important">
-                           <a class="nav-link"  style="background-color: lavender; " href="{{url('show_order')}}">Order [ <span style="color: green;">{{App\Models\Order::where('user_id','=',Auth::user()->id)->count()}} ]</span></a>
+                           <a class="nav-link"  style="background-color: skyblue; " href="{{url('show_order')}}">Order [ <span style="color: green;">{{App\Models\Order::where('user_id','=',Auth::user()->id)->count()}} ]</span></a>
                         </li>
 
                         @else
 
                          <li class="nav-item" style="padding-left: 10px!important;
                         padding-right: 10px!important">
-                           <a class="nav-link"  style="background-color: lavender; " href="{{url('show_order')}}">Order [ 0 ]</a>
+                           <a class="nav-link"  style="background-color: skyblue; " href="{{url('show_order')}}">Order [ 0 ]</a>
                         </li>
 
                        

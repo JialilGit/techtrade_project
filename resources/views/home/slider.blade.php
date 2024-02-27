@@ -16,7 +16,7 @@
                                     <br>
                                     for a Sustainable Future.
                                  </h1>
-                                 <p>
+                                 <p style="color: #FFFFFF;" >
                                  Your choices matter. When you shop or sell on our platform, you're making a positive impact on the environment and society. Together, we're shaping a more sustainable future.
                                  </p>
                                  <div class="btn-box">
@@ -41,7 +41,7 @@
                                     <br>
                                     Uniting Through Sustainability
                                  </h1>
-                                 <p>
+                                 <p style="color: #FFFFFF;">
                                  Welcome to EcoConnect, TechTrade's newest community hub, where technology meets sustainability. Dive into a world where your experiences, knowledge, and tips on sustainable technology use can spark change. Join us to connect, collaborate, and contribute to a greener tomorrow.
                                  </p>
                                  <div class="btn-box">
@@ -66,7 +66,7 @@
                                     <br>
                                      for Eco-Friendly Packaging
                                  </h1>
-                                 <p>
+                                 <p style="color: #FFFFFF;">
                                  Join us in making a positive impact on the environment! At TechTrade, we believe in responsible shipping practices. Introducing GreenShip - an initiative to raise awareness about eco-friendly packaging options for shipping.
                                  </p>
                                  <div class="btn-box">

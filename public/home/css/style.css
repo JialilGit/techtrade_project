@@ -70,12 +70,12 @@ h2 {
     display: block;
     width: 70px;
     height: 5px;
-    background: #f7444e;
+    background: rgba(69,119,12,255);
     margin: 10px auto 10px;
 }
 
 .heading_container h2 span {
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .heading_container p {
@@ -173,11 +173,11 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link svg, .custom_nav-container .navbar-nav .nav-item.active .nav-link svg {
-  fill: #f7444e;
+  fill: rgba(69,119,12,255);
 }
 
 .custom_nav-container .nav_search-btn {
@@ -189,7 +189,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .custom_nav-container .navbar-toggler {
@@ -278,15 +278,16 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-    font-size: 4.5rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #002c3e;
+    color: white;
     line-height: 70px;
 }
 
 .slider_section .detail-box h1 span {
-  color: #f7444e;
+  color: white;
 }
 
 .slider_section .detail-box p {
@@ -298,8 +299,8 @@ a:focus {
 .slider_section .detail-box a {
     display: inline-block;
     padding: 12px 45px;
-    background-color: #f7444e;
-    border: 1px solid #f7444e;
+    background-color: #1bb1d1;
+    border: 1px solid #1bb1d1;
     color: #ffffff;
     border-radius: 0;
     -webkit-transition: all 0.3s;
@@ -310,7 +311,7 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: #1bb1d1;
 }
 
 .slider_section .img-box img {
@@ -340,7 +341,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #f7444e;
+  background-color: #1bb1d1;
 }
 
 .slider_bg_box {
@@ -482,14 +483,14 @@ a:focus {
 }
 
 .product_section .options .option1 {
-  background-color: #f7444e;
-  border: 1px solid #f7444e;
+  background-color: rgba(69,119,12,255);
+  border: 1px solid rgba(69,119,12,255);
   color: #ffffff;
 }
 
 .product_section .options .option1:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .product_section .options .option2 {
@@ -516,8 +517,8 @@ a:focus {
 .product_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #f7444e;
-  border: 1px solid #f7444e;
+  background-color: rgba(69,119,12,255);
+  border: 1px solid rgba(69,119,12,255);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -526,11 +527,11 @@ a:focus {
 
 .product_section .btn-box a:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .arrival_section .heading_container {
-  color: #002c3e;
+  color: rgba(69,119,12,255);
   margin-bottom: 10px;
 }
 
@@ -560,8 +561,8 @@ a:focus {
 .arrival_section a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f7444e;
-  border: 1px solid #f7444e;
+  background-color: rgba(69,119,12,255);
+  border: 1px solid rgba(69,119,12,255);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -570,13 +571,13 @@ a:focus {
 
 .arrival_section a:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .why_section .box {
     text-align: center;
     margin-top: 45px;
-    background-color: #002c3e;
+    background-color: rgba(69,119,12,255);
     padding: 45px 50px;
     border-radius: 5px;
     color: #ffffff;
@@ -665,8 +666,8 @@ a:focus {
 .subscribe_section .subscribe_form form button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f7444e;
-  border: 1px solid #f7444e;
+  background-color: rgba(69,119,12,255);
+  border: 1px solid rgba(69,119,12,255);
   color: #ffffff;
   border-radius: 35px;
   -webkit-transition: all 0.3s;
@@ -680,7 +681,7 @@ a:focus {
 
 .subscribe_section .subscribe_form form button:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .client_section .box {
@@ -777,7 +778,7 @@ a:focus {
   height: 50px;
   opacity: 1;
   color: #ffffff;
-  background-color: #f7444e;
+  background-color: rgba(69,119,12,255);
   border-radius: 100%;
 }
 
@@ -842,7 +843,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .footer_section .footer-logo {
@@ -884,7 +885,7 @@ a:focus {
 }
 
 .footer_section .footer_social a:hover {
-  color: #f7444e;
+  color: rgba(69,119,12,255);
 }
 
 .footer_section .map_container {
@@ -962,11 +963,11 @@ li.nav-item ul li a {
 }
 
 li.nav-item ul li a:hover, li.nav-item ul li a:focus {
-    color: #f7444e;
+    color: rgba(69,119,12,255);
 }
 
 .inner_page_head {
-    background: #f7444e;
+    background: rgba(69,119,12,255);
     text-align: center;
     color: #fff;
     padding-top: 50px;
@@ -1050,7 +1051,7 @@ div.form_sub .field input[type="email"], div.form_sub .field input[type="email"]
 .form_sub input[type="email"] + input[type="submit"] {
     position: absolute;
     right: 0;
-    background: #f7444e;
+    background: rgba(69,119,12,255);
     color: #fff;
     border: none;
     top: 0px;
@@ -1092,7 +1093,7 @@ form input[type="submit"] {
     line-height: normal;
     margin: 0 auto;
     display: flex;
-    background: #333;
+    background: #1bb1d1;
     color: #fff;
     font-weight: 600;
     transition: ease all 0.1s;
@@ -1100,28 +1101,28 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover,
 form input[type="submit"]:focus {
-    background: #f7444e;
+    background: rgba(69,119,12,255);
     color: #fff;
 }
 
 /** cpy **/
 
 .cpy_ {
-    background: #222;
+    background: rgba(69,119,12,255);
     text-align: center;
     padding: 20px 0;
 }
 
 .cpy_ p {
     margin: 0;
-    color: #fff;
+    color: white;
     font-size: 15px;
     font-weight: 400;
 }
 
 .cpy_ p a {
     margin: 0;
-    color: #f7444e;
+    color: white;
     font-size: 15px;
     font-weight: 400;
 }
